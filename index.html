@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav id="nav" class="nav">
+            <img class="logo" src="ford pronto (1).png" alt="Logo Ford Go">
+            <ul class="menu" id="menu">
+                <li class="seletor"><a class="campo-clic" href="#">Veículos</a></li>
+                <li class="seletor"><a class="campo-clic" href="#">Aluguel</a></li>
+                <li class="seletor"><a class="campo-clic" href="#">Assinatura</a></li>
+                <li class="seletor"><a class="campo-clic" href="#">Dúvidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="DUV">
+        Dúvidas Frequentes
+    </div>
+
+    <div class="faq-container">
+        <button class="accordion">Como funciona o aluguel de carros?</button>
+        <div class="panel">
+            <p>O aluguel de carros funciona permitindo que você escolha um veículo disponível por um período determinado mediante o pagamento de uma taxa diária ou semanal.</p>
+        </div>
+    
+        <button class="accordion">Quais documentos são necessários para alugar um veículo?</button>
+        <div class="panel">
+            <p>Geralmente são necessários documentos como carteira de motorista válida, documento de identificação e cartão de crédito para caução.</p>
+        </div>
+    
+        <button class="accordion">Quanto tempo posso usar o veículo após o vencimento do prazo?</button>
+        <div class="panel">
+            <p>O tempo de tolerância após o vencimento do prazo varia, mas geralmente há uma taxa adicional por atraso ou uma política específica da locadora.</p>
+        </div>
+    
+        <button class="accordion">Posso alugar o veículo para terceiros?</button>
+        <div class="panel">
+            <p>Normalmente, apenas o locatário (a pessoa que assinou o contrato de locação) pode dirigir o veículo. É importante verificar as políticas da locadora para mais detalhes.</p>
+        </div>
+    
+        <button class="accordion">Qual o valor do caução e como é referente ao valor a ser pago no final?</button>
+        <div class="panel">
+            <p>O valor do caução varia dependendo do tipo de veículo e da locadora. Este valor é uma garantia que será reembolsada ao final do contrato, após a devolução do veículo em boas condições.</p>
+        </div>
+    
+        <button class="accordion">O seguro já está incluso no valor?</button>
+        <div class="panel">
+            <p>Geralmente, o seguro básico está incluído no valor do aluguel. No entanto, é recomendável verificar as opções de seguro oferecidas pela locadora para escolher a cobertura mais adequada.</p>
+        </div>
+    </div>
+    
+    <script>
+        // Script para fazer o accordion funcionar
+        var accordions = document.getElementsByClassName("accordion");
+    
+        for (var i = 0; i < accordions.length; i++) {
+            accordions[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+<footer>
+    <nav class="selecao">
+        <img class="logo-footer" src="ford pronto (1).png" alt="Logo Ford Pronto">
+        <ul class="menu-footer">
+            <li class="click">
+                <h3 class="f-h3">Contatos</h3>
+                <a class="a-footer" href="#">@fordgobrasil.com.br</a>
+                <a class="a-footer" href="#">(11)9 000000-00</a>
+                <a class="a-footer" href="#">whatsapp</a>
+                <a class="a-footer" href="#">@FordGo</a>
+            </li>
+            <li class="click">
+                <h3 class="f-h3">Sobre nós</h3>
+                <a class="a-footer" href="#">Ford Foundation</a>
+                <a class="a-footer" href="#">Carreiras</a>
+                <a class="a-footer" href="#">Programa de Estágio</a>
+                <a class="a-footer" href="#">Ford Enter</a>
+                <a class="a-footer" href="#">Notícias</a>
+            </li>
+            <li class="click">
+                <h3 class="f-h3">Comprar</h3>
+                <a class="a-footer" href="#">Monte o seu</a>
+                <a class="a-footer" href="#">Ofertas</a>
+                <a class="a-footer" href="#">Concessionárias</a>
+                <a class="a-footer" href="#">Simule seu Financiamento</a>
+                <a class="a-footer" href="#">Plano Ford Sempre</a>
+            </li>
+            <li class="click">
+                <h3 class="f-h3">Serviços</h3>
+                <a class="a-footer" href="#">Atualização Sync</a>
+                <a class="a-footer" href="#">Assistência de Emergência</a>
+                <a class="a-footer" href="#">Agende seu Serviço</a>
+                <a class="a-footer" href="#">Serviço Leva e Traz</a>
+                <a class="a-footer" href="#">Revisões Ford</a>
+            </li>
+        </ul>
+    </nav>
+   
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
